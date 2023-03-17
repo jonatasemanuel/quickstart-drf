@@ -1,4 +1,4 @@
-from django.contrib.auth.model import Group, User
+from django.contrib.auth.models import Group, User
 from rest_framework import permissions, viewsets
 
 from tutorial.quickstart.serializers import GroupSerializer, UserSerializer
